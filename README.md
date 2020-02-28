@@ -7,17 +7,30 @@ slackのルール作り
   - `# team-*`
   - `# team-imageBC`
 
-- インターン、アルバイト等：1人一つ立てる
-  - `# intern-*`
-  - `# intern-deeksha`
+- プロジェクト：プロジェクトごとに立てる
+  - `# pj-*` 
+  - `# pj-mycityreport`
 
 - イベント運営：イベントごとに立てる
   - `# event-*`
   - `# event-s4d`
 
-- プロジェクト：プロジェクトごとに立てる
-  - `# pj-*` 
-  - `# pj-mycityreport`
+- インターン、アルバイト等：1人一つ立てる
+  - `# intern-*`
+  - `# intern-deeksha`
+
+- なんでも質問OK、善意で回答
+  - `# askMeAnything`
+
+- 広報（Facebook含む）
+  - `# website-update`
+
+- 研究室のリソース関連：PCの設定とか、iisアカウント登録とか
+  - `# lab`
+
+- ボット：redmineやgitなど想定
+  - `# bot-*`
+  - `# bot-remind`
 
 - 秘書さん問い合わせ：精算、申請などを行う
   - `# secretary`
@@ -37,26 +50,14 @@ From members:
 - お尋ね
 ```
 
-- なんでも質問OK、善意で回答
-  - `# askMeAnything`
-
-- 広報系（Facebook含む）
-  - `# website-update`
-
-- ボット：redmineやgitなど想定
-  - `# bot-*`
-  - `# bot-remind`
-
-- 研究室のリソース関連：PCの設定とか、iisアカウント登録とか
-  - `# lab`
-
 ## その他
 
-- 全員が入っている
+- Generalチャンネル：全員が入っている）
   - `# general`
 
-- 全員が入っているが、抜けられる。雑談とか、ご飯のお誘いとか
+- randomチャンネル：全員が入っているが、抜けられる。雑談とか、ご飯のお誘いとか
   - `# random`
+
 
 ## 運用ルール
 
