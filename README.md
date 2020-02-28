@@ -4,13 +4,13 @@ slackのルール作り
 ## チャンネル命名規則
 
 - チーム：今後BCを3チーム体制で行うことを想定し、チームで意見交換できる。
- # team- 例）# team-imageBC
+ - # team- 例）# team-imageBC
 
 - インターン、アルバイト等
- # intern- 例）# intern-deeksha
+ - # intern- 例）# intern-deeksha
 
 - イベント運営：イベントごとに立てる
- # event- 例）# event-s4d
+ - # event- 例）# event-s4d
 
 プロジェクト：プロジェクトごとに立てる
 - # pj- 例） # pj-mycityreport
