@@ -3,43 +3,63 @@ slackのルール作り
 
 ## チャンネル命名規則
 
-- チーム：今後BCを3チーム体制で行うことを想定し、チームで意見交換できる。
-  - `# team-` 例）`# team-imageBC`
+- チーム：今後BCを3チーム体制で行うことを想定し、チームごとに立てる
+  - `# team-*`
+  - `# team-imageBC`
 
-- インターン、アルバイト等
- - # intern- 例）# intern-deeksha
+- インターン、アルバイト等：1人一つ立てる
+  - `# intern-*`
+  - `# intern-deeksha`
 
 - イベント運営：イベントごとに立てる
- - # event- 例）# event-s4d
+  - `# event-*`
+  - `# event-s4d`
 
-プロジェクト：プロジェクトごとに立てる
-- # pj- 例） # pj-mycityreport
+- プロジェクト：プロジェクトごとに立てる
+  - `# pj-*` 
+  - `# pj-mycityreport`
 
-秘書さん問い合わせ：精算、申請など
-- # secretary
+- 秘書さん問い合わせ：精算、申請などを行う
+  - `# secretary`
 
-なんでも質問OK、善意で回答
-- # askMeAnything
+```
+From secretary: 
+【＠channel：*** 】
+- Urgent
+- Important
+- Announce 
+```
+```
+From members:
+【@rieko: *** 】
+- 出張
+- 経費
+- お尋ね
+```
 
-広報系（Facebook含む）
-- # website-update
+- なんでも質問OK、善意で回答
+  - `# askMeAnything`
 
-ボット：redmineやgitなど想定
-- # bot-
+- 広報系（Facebook含む）
+  - `# website-update`
 
-研究室のリソース関連：PCの設定とか、iisアカウント登録とか
-- # lab
+- ボット：redmineやgitなど想定
+  - `# bot-*`
+  - `# bot-remind`
 
-＜その他デフォルト＞
+- 研究室のリソース関連：PCの設定とか、iisアカウント登録とか
+  - `# lab`
 
-全員が入っている
-- # general
+## その他
 
-全員が入っているが、抜けられる。雑談とか、ご飯のお誘いとか
-- # random
+- 全員が入っている
+  - `# general`
 
-joinしたら読むチャンネル
-＜運用ルール＞
+- 全員が入っているが、抜けられる。雑談とか、ご飯のお誘いとか
+  - `# random`
+
+## 運用ルール
+
 - @channel/@hereは全員に通知が表示されるため、極力避ける
 - 連続投稿禁止（検索性、スター、ピンの効率的な運用のため。）
 - 長文はスニペットにまとめて投稿する
