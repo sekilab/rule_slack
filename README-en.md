@@ -60,7 +60,7 @@ From members:
   - `# random`
 
 
-## 運用ルール
+## Rule for daily usecase
 
 - Don't use @channel/@here, since these mentions are notified to all members
 - Post messages together in one post
