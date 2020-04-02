@@ -1,40 +1,22 @@
 # rule_slack
 slackのルール作り
 
-## 共有チャンネル
+## 共有チャンネル（デフォルトで全員が入っている）
 
-- Generalチャンネル：全員が入っている
+- Generalチャンネル：
   - `# general`
 
-- randomチャンネル：全員が入っているが、抜けられる。雑談とか、ご飯のお誘いとか
+- randomチャンネル：雑談とか、ご飯のお誘いとか
   - `# random`
 
-## チャンネル命名規則
-
-- チーム：今後BCを3チーム体制で行うことを想定し、チームごとに立てる。シニア/学生、などもあり得るか。
-  - `# team-*`
-  - `# team-imageBC`
-
-- プロジェクト：プロジェクトごとに立てる
-  - `# pj-*` 
-  - `# pj-mycityreport`
-
-- イベント運営：イベントごとに立てる
-  - `# event-*`
-  - `# event-s4d`
-
-- インターン、アルバイト等：1人一つ立てる
-  - `# intern-*`
-  - `# intern-deeksha`
+- 研究室のリソース関連：PCの設定とか、iisアカウント登録とか
+  - `# lab-resources`
 
 - なんでも質問OK、善意で回答
   - `# askMeAnything`
 
-- 広報（Facebook含む）
-  - `# website-update`
-
-- 研究室のリソース関連：PCの設定とか、iisアカウント登録とか
-  - `# lab`
+- 新規加入メンバー向け：
+  - for_new_comers
 
 - ボット：redmineやgitなど想定
   - `# bot-*`
@@ -57,6 +39,28 @@ From members:
 - 経費
 - お尋ね
 ```
+
+## 個別チャンネル命名規則
+
+- チーム：今後BCを3チーム体制で行うことを想定し、チームごとに立てる。シニア/学生、などもあり得るか。
+  - `# team-*`
+  - `# team-imageBC`
+
+- プロジェクト：プロジェクトごとに立てる
+  - `# pj-*` 
+  - `# pj-mycityreport`
+
+- イベント運営：イベントごとに立てる
+  - `# event-*`
+  - `# event-s4d`
+
+- インターン、アルバイト等：1人一つ立てる
+  - `# intern-*`
+  - `# intern-deeksha`
+
+- 広報（Facebook含む）
+  - `# website-update`
+
 
 ## 運用ルール
 
