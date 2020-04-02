@@ -1,7 +1,45 @@
 # rule_slack
 slack rule for Sekilab members
 
-## Channel Name
+## Default channel
+
+- General：All members are in this channel
+  - `# general`
+
+- random：All members are in this channel, but you can go out this channel.
+  - `# random`
+- For new comers:
+  - `# for_new_comers`
+
+- Ask anything, answer with your kindness
+  - `# askMeAnything`
+
+- Lab Resource：PC setting, IIS account, Printer setting, MS Office
+  - `# lab`
+
+- bot：redmine, github, calendar
+  - `# bot-*`
+  - `# bot-remind`, `# bot-calendar`
+
+- Secretary：Business trip expense settlement etc.
+  - `# secretary`
+  
+```
+From secretary: 
+【＠channel：*** 】
+- Urgent
+- Important
+- Announce 
+```
+```
+From members:
+【@rieko: *** 】
+- 出張（business trip)
+- 経費(budget)
+- お尋ね(question)
+```
+
+## Individual Channel Name
 
 - Team：
   - `# team-*`
@@ -20,45 +58,9 @@ slack rule for Sekilab members
   - `# intern-*`
   - `# intern-deeksha`
 
-- Ask anything, answer with your kindness
-  - `# askMeAnything`
 
 - Announce（Facebook, website）
   - `# website-update`
-
-- Lab Resource：PC setting, IIS account, Printer setting, MS Office
-  - `# lab`
-
-- bot：redmine, github, calendar
-  - `# bot-*`
-  - `# bot-remind`, `# bot-calendar`
-
-- Secretary：Business trip expense settlement etc.
-  - `# secretary`
-
-```
-From secretary: 
-【＠channel：*** 】
-- Urgent
-- Important
-- Announce 
-```
-```
-From members:
-【@rieko: *** 】
-- 出張（business trip)
-- 経費(budget)
-- お尋ね(question)
-```
-
-## Others
-
-- General：All members are in this channel
-  - `# general`
-
-- random：All members are in this channel, but you can go out this channel.
-  - `# random`
-
 
 ## Rule for daily usecase
 
